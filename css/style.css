@@ -1,0 +1,365 @@
+@font-face {
+	font-family: "Balqis";
+	src: url("http://db.onlinewebfonts.com/t/188d1fa8197b9332b368f98b00285a05.eot"); /* IE9*/
+	src: url("http://db.onlinewebfonts.com/t/188d1fa8197b9332b368f98b00285a05.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */
+			url("http://db.onlinewebfonts.com/t/188d1fa8197b9332b368f98b00285a05.woff2")
+			format("woff2"),
+		/* chrome firefox */
+			url("http://db.onlinewebfonts.com/t/188d1fa8197b9332b368f98b00285a05.woff")
+			format("woff"),
+		/* chrome firefox */
+			url("http://db.onlinewebfonts.com/t/188d1fa8197b9332b368f98b00285a05.ttf")
+			format("truetype"),
+		/* chrome firefox opera Safari, Android, iOS 4.2+*/
+			url("http://db.onlinewebfonts.com/t/188d1fa8197b9332b368f98b00285a05.svg#Balqis")
+			format("svg"); /* iOS 4.1- */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap");
+header {
+	background: url("../img/fon.jpg") center/ cover no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+:where(header, .sec1, .sec2, .sec3, .sec4, .sec5, .sec6) h1 {
+	font-family: "Balqis";
+	font-size: 250px;
+	color: #000;
+	font-weight: 400;
+	margin-top: 8%;
+	line-height: 334px;
+	font-style: normal;
+	line-height: 334px;
+}
+:where(header, .sec1, .sec2, .sec3, .sec4, .sec5, .sec6) .font {
+	position: relative;
+	text-align: center;
+}
+header h2 {
+	position: absolute;
+	bottom: 0;
+	right: 16%;
+	font-family: "Roboto Condensed";
+	font-style: italic;
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 66px;
+	color: #000000;
+}
+header a {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-decoration-line: underline;
+	color: #000000;
+}
+.container {
+	max-width: 65%;
+	margin: 0 auto;
+}
+.navRight {
+	width: 18%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+}
+li {
+	margin-top: 5%;
+}
+.nav-link,
+p {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	color: #000000;
+}
+/*********************  Section 1 - FairyTail  **********************/
+.sec1 .container {
+	margin: 5% 0 5% 11%;
+}
+:where(.sec1, .sec2, .sec3, .sec4, .sec5) h1 {
+	font-family: "Balqis";
+	font-size: 96px;
+	font-weight: 400;
+	color: #e2ab3f;
+	line-height: 128px;
+	font-style: normal;
+	position: relative;
+}
+:where(.sec1, .sec2, .sec3, .sec4, .sec5) h2 {
+	font-family: "Roboto Condensed";
+	font-style: italic;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	position: absolute;
+	bottom: -3%;
+	right: 8%;
+}
+.sec1 .col-6 p {
+	margin: 4% 35% 3% 3%;
+	padding-bottom: 3%;
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.sec1 .size1 {
+	font-size: 18px;
+	font-weight: 900;
+}
+.sec1 {
+	margin-bottom: 7%;
+}
+/******************  section 2 - Our Trip  ************************/
+.sec2 .container {
+	max-width: 35%;
+	margin: 0 auto;
+}
+.sec2 .size {
+	position: relative;
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.sec2 h2 {
+	position: absolute;
+	bottom: -3%;
+	right: -15%;
+}
+.sec2 .par {
+	padding-left: 10%;
+}
+.sec2 p {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+.sec2 h1 {
+	margin-bottom: 20%;
+}
+.sec2 .bl {
+	font-weight: 700;
+	font-size: 26;
+}
+.sec2 .btn {
+	width: 100%;
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	border: 1px solid #e2ab3f;
+	margin-top: 10%;
+}
+/*********************  section 3 - Hotel  *******************/
+.sec3 .cont {
+	display: flex;
+	gap: 10%;
+}
+.sec3 .fl1 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5.3%;
+	margin-bottom: 0;
+}
+.fl p {
+	white-space: wrap;
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.fl-1 {
+	margin-bottom: 15%;
+}
+.fl1-ph {
+	margin-bottom: 8%;
+}
+.sec3 .font {
+	left: -42%;
+	margin-bottom: 5%;
+}
+.sec3 h2 {
+	bottom: -3%;
+	left: 25%;
+}
+/******************  Section 4 - Price  ***************/
+.sec4 h1 {
+	left: -42%;
+}
+.sec4 h2 {
+	left: -57%;
+}
+.sec4 .font {
+	margin: 10% 0;
+}
+.sec4 h3 {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+.sec4 p {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+.sec4 {
+	position: relative;
+}
+.big {
+	position: absolute;
+	top: 40%;
+	right: 5%;
+}
+.mdl1 {
+	position: absolute;
+	top: 65%;
+	right: 25%;
+}
+.mdl2 {
+	position: absolute;
+	top: 95%;
+	right: 18%;
+}
+/****************  Section 5 *****************/
+
+.sec5 .left {
+	margin-top: 5%;
+}
+.sec5 h2 {
+	font-size: 20px;
+	top: 47%;
+	left: 30%;
+}
+.sec5 h4 {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	color: #000000;
+	margin-bottom: 10%;
+}
+.sec5 .row {
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+.sec5 input {
+	width: 350px;
+	height: 50px;
+	left: 464px;
+	top: 6112px;
+	background: #ffffff;
+	border: 1px solid #e2ab3f;
+}
+.sec5 form button {
+	width: 250px;
+	height: 50px;
+	left: 516px;
+	top: 6252px;
+	background: #ffffff;
+	border: 1px solid #e2ab3f;
+}
+.sec5 form button .bt {
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #000000;
+}
+
+/**************** Footer  ****************/
+footer {
+	position: relative;
+	background: url("../img/fon.jpg") center/ cover no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+.png {
+	position: absolute;
+	background: url("../img/png.png") center/ cover no-repeat;
+	top: 15%;
+	left: 23%;
+	width: 356px;
+	height: 527px;
+}
+
+.abs {
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	left: 52%;
+	font-family: "Balqis";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 86px;
+	line-height: 115px;
+	color: #000000;
+}
+
+.fff {
+	display: flex;
+	justify-content: space-between;
+	gap: 10%;
+	position: absolute;
+	top: 57%;
+	left: 34%;
+}
+.fff img {
+	width: 30px;
+	height: 30px;
+}
+.circle h2 {
+	font-family: "Balqis";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 115px;
+	color: #e2ab3f;
+	position: absolute;
+	top: 8%;
+	left: 12%;
+}
+.png .phone {
+	display: flex;
+	gap: 10px;
+	height: 20px;
+	position: absolute;
+	top: 33%;
+	left: 18%;
+}
+.png .mail {
+	display: flex;
+	gap: 10px;
+	height: 20px;
+	position: absolute;
+	top: 40%;
+	left: 6%;
+}
